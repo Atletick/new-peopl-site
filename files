@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Новые люди</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ШРИФТ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="decor decor-1"></div>
+<div class="decor decor-2"></div>
+
+<header class="header">
+  <div class="logo">НОВЫЕ ЛЮДИ</div>
+  <div class="burger" id="burger"><span></span><span></span><span></span></div>
+  <nav class="nav" id="nav">
+    <a href="index.html" class="active">Главная</a>
+    <a href="pages/about.html">О нас</a>
+    <a href="pages/program.html">Программа</a>
+    <a href="pages/ideology.html">Идеология</a>
+    <a href="pages/news.html">Новости</a>
+    <a class="btn" target="_blank"
+       href="https://discord.com/channels/1381211948749950996/1381211954793807902">
+      Присоединиться
+    </a>
+  </nav>
+</header>
+
+<section class="hero fade-up">
+  <span class="eyebrow">Политическая партия</span>
+  <h1>Новые люди — новая политика</h1>
+  <p class="lead">
+    Мы создаём современную, открытую и честную политическую систему,
+    ориентированную на человека и его возможности.
+  </p>
+  <a class="btn big" target="_blank"
+     href="https://discord.com/channels/1381211948749950996/1381211954793807902">
+    Вступить в команду
+  </a>
+</section>
+
+<section class="section fade-up">
+  <h2>Наши ценности</h2>
+  <div class="cards">
+    <div class="card">Открытость власти</div>
+    <div class="card">Свобода инициативы</div>
+    <div class="card">Современные технологии</div>
+    <div class="card">Комфортная среда</div>
+  </div>
+</section>
+
+<footer class="footer">
+  © 2026 · Партия «Новые люди»
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
